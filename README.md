@@ -7,9 +7,9 @@ Detta är min API applikation, som är en Pokédex med data från Pokémon från
 Den här Pokédexen samlar data från en API, där den får informationen från varsin Pokémon som har ID nummer mellan 1 till 151.
 Pokédexen samlar följande data:
 
-ID (Nmr på Pokémon)
-Namn
-Type
+ID (Nmr på Pokémon),
+Namn,
+Type,
 Sprite (bild)
 
 ## Start av applikation
