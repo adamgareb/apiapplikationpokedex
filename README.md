@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Adam Hama Gareb - API Applikation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Detta är min API applikation, som är en Pokédex med data från Pokémon från Kanto regionen.
 
-## Available Scripts
+## Funktionalitet
 
-In the project directory, you can run:
+Den här Pokédexen samlar data från en API, där den får informationen från varsin Pokémon som har ID nummer mellan 1 till 151.
+Pokédexen samlar följande data:
 
-### `npm start`
+ID (Nmr på Pokémon)
+Namn
+Type
+Sprite (bild)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Start av applikation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**För att kunna starta denna applikationen måste ni göra följande**
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Öppna Visual Studio Code eller annan önskad code editor och öppna den här projekt foldern
+2. Sedan gäller det att öppna terminalen. I Visual Studio Code har ni 'Terminal' fliken ovanför. Tryck på den och öppna sedan 'New Terminal' för att få fram terminalen.
+3. Här är det viktigt att ni först installerar react-scripts genom att skriva in "npm install react-scripts --save" i terminalen och trycker enter.
+4. När react-scripts har installerats så kan ni äntligen öppna projektet. Det gör ni genom att skriva in kommandot "npm start" i terminalen. Sedan trycker ni enter.
+5. Nu borde applikationen automatiskt öppnas. Njut!
